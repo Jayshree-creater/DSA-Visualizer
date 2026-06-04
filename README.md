@@ -1,86 +1,58 @@
-# 🧠 DSA Visualizer — Java Swing Project
+# 🧠 DSA Visualizer
 
-## Placement-Ready Java Desktop Application
+An interactive desktop application that visualizes Data Structure algorithms in real-time using Core Java and Swing.
 
-### 📦 Features
-- **📊 Sorting Visualizer** — Bubble Sort, Selection Sort, Insertion Sort (animated bars!)
-- **🔍 Binary Search** — Step-by-step visualization with log
-- **📚 Stack** — Push, Pop, Peek with animation (LIFO)
-- **🔄 Queue** — Enqueue, Dequeue, Peek with animation (FIFO)
+![Java](https://img.shields.io/badge/Java-17+-orange)
+![Swing](https://img.shields.io/badge/UI-Java%20Swing-blue)
+![Status](https://img.shields.io/badge/Status-Complete-green)
 
 ---
 
-## 🚀 Kaise Run Karein?
+## ✨ Features
 
-### Step 1: Java JDK Install Karo
-Download karo: https://www.oracle.com/java/technologies/downloads/
-(JDK 17 ya 21 — dono chalega)
+- **📊 Sorting** — Bubble Sort, Selection Sort, Insertion Sort with animated bars
+- **🔍 Binary Search** — Step-by-step visualization with search log
+- **📚 Stack** — Push, Pop, Peek with LIFO animation
+- **🔄 Queue** — Enqueue, Dequeue with FIFO animation
+- **⚡ Speed Control** — Adjust animation speed with slider
+- **🎲 Random Array** — Generate new arrays instantly
 
-### Step 2: Project Run Karo
+---
 
-#### Windows:
-```
-run_windows.bat pe double-click karo
-```
+##  Tech Stack
 
-#### Mac / Linux:
+| Technology | Usage |
+|---|---|
+| Java 17+ | Core language |
+| Java Swing | Desktop UI |
+| Graphics2D | Bar & box animations |
+| Multithreading | Smooth animations without UI freeze |
+| CardLayout | Panel navigation |
+| Timer | Stack/Queue animations |
+
+---
+
+##  How to Run
+
+### Prerequisites
+- Java JDK 17 or 21 — [Download here](https://www.oracle.com/java/technologies/downloads/)
+
+### Windows
+Double-click `run_windows.bat`
+
+### Mac / Linux
 ```bash
 chmod +x run_mac_linux.sh
 ./run_mac_linux.sh
 ```
 
-#### Ya manually:
+### Manual
 ```bash
 mkdir out
-javac -d out src/dsavisualizer/*.java src/dsavisualizer/**/*.java
+javac -d out src/dsavisualizer/Main.java src/dsavisualizer/MainFrame.java src/dsavisualizer/HomePanel.java src/dsavisualizer/sorting/SortingPanel.java src/dsavisualizer/searching/SearchingPanel.java src/dsavisualizer/stack/StackPanel.java src/dsavisualizer/queue/QueuePanel.java
 java -cp out dsavisualizer.Main
 ```
 
 ---
 
-## 📁 Project Structure
-```
-DSAVisualizer/
-├── src/
-│   └── dsavisualizer/
-│       ├── Main.java              ← Entry point
-│       ├── MainFrame.java         ← Main window + navigation
-│       ├── HomePanel.java         ← Home screen
-│       ├── sorting/
-│       │   └── SortingPanel.java  ← Bubble, Selection, Insertion Sort
-│       ├── searching/
-│       │   └── SearchingPanel.java ← Binary Search
-│       ├── stack/
-│       │   └── StackPanel.java    ← Stack operations
-│       └── queue/
-│           └── QueuePanel.java    ← Queue operations
-├── run_windows.bat
-├── run_mac_linux.sh
-└── README.md
-```
-
----
-
-## 🛠️ Technologies Used
-- Java 17+ / 21
-- Java Swing (built-in UI)
-- Core Java: OOPs, Arrays, Stack, Queue, LinkedList, Threads, Timer
-- Event Listeners, Graphics2D, CardLayout
-
----
-
-## 💼 Interview Mein Kya Bolein?
-> "Maine Core Java aur Swing se ek DSA Visualizer desktop application banaya jisme sorting algorithms (Bubble, Selection, Insertion), Binary Search, Stack aur Queue ko animated visual representation ke saath dikhaya. Isme multi-threading use ki animation ke liye aur OOPs concepts jaise inheritance, encapsulation use kiye."
-
----
-
-## 📸 GitHub Pe Kaise Upload Karein?
-```bash
-git init
-git add .
-git commit -m "DSA Visualizer - Java Swing Project"
-git remote add origin <your-github-url>
-git push -u origin main
-```
-
-Made with ❤️ using Core Java & Swing
+##  Project Structure
