@@ -56,3 +56,25 @@ java -cp out dsavisualizer.Main
 ---
 
 ##  Project Structure
+''' DSAVisualizer/
+│── src/
+│   ├── dsavisualizer/
+│   │   ├── Main.java
+│   │   ├── MainFrame.java
+│   │   ├── HomePanel.java
+│   │   ├── sorting/
+│   │   │   └── SortingPanel.java
+│   │   ├── searching/
+│   │   │   └── SearchingPanel.java
+│   │   ├── stack/
+│   │   │   └── StackPanel.java
+│   │   ├── queue/
+│   │   │   └── QueuePanel.java
+│── out/
+│   └── dsavisualizer/   (compiled .class files)
+│── screenshots/
+│   └── sorting.png
+│── run_windows.bat
+│── run_mac_linux.sh
+│── README.md
+'''
