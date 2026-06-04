@@ -1,4 +1,4 @@
-# 🧠 DSA Visualizer
+#  DSA Visualizer
 
 An interactive desktop application that visualizes Data Structure algorithms in real-time using Core Java and Swing.
 
