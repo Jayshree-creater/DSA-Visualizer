@@ -55,8 +55,10 @@ java -cp out dsavisualizer.Main
 
 ---
 
-##  Project Structure
-''' DSAVisualizer/
+## 📁 Project Structure
+
+```plaintext
+DSAVisualizer/
 │── src/
 │   ├── dsavisualizer/
 │   │   ├── Main.java
@@ -77,4 +79,4 @@ java -cp out dsavisualizer.Main
 │── run_windows.bat
 │── run_mac_linux.sh
 │── README.md
-'''
+
