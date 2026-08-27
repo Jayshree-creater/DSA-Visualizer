@@ -1,7 +1,0 @@
-src/dsavisualizer/searching/SearchingPanel.java
-src/dsavisualizer/sorting/SortingPanel.java
-src/dsavisualizer/HomePanel.java
-src/dsavisualizer/queue/QueuePanel.java
-src/dsavisualizer/stack/StackPanel.java
-src/dsavisualizer/Main.java
-src/dsavisualizer/MainFrame.java

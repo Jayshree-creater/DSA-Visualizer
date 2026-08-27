@@ -1,0 +1,6 @@
+{
+  "name": "DSA Algorithm Visualizer",
+  "description": "An interactive web visualizer for Data Structures and Algorithms with step-by-step animations for Sorting, Binary Search, Stack, and Queue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
